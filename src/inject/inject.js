@@ -14,6 +14,8 @@ var cdtGroups = [
   'cdtHousing',
   '1633871026865938', // Dumpyard
   'hhsneks',
+  '1781290548766693', // CdTunes
+  'realsingleshhct', // Singles
   '482425228622242' // Les Canadiens
 ];
 
