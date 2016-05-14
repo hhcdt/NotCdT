@@ -13,3 +13,7 @@ Pull requests are welcomed.
 
 ## Disclaimer
 bad code probably
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/hhcdt/notcdt/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
