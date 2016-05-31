@@ -1,15 +1,18 @@
 # NotCdT
-Shows a very noticeable banner when you are on Facebook but outside of Cirque du Twerque
+Shows a very noticeable banner when you are on Facebook but outside of Cirque du Twerque. Tested on Chrome and Firefox.
 
-## Installing
-**Quick 'n' easy**: Download from the chrome web store: https://chrome.google.com/webstore/detail/not-cdt/ebaificpkjbcfcpndjpmjggkiaadccoc
+## Installing -- Chrome
+**Production**: Download from the chrome web store: https://chrome.google.com/webstore/detail/not-cdt/ebaificpkjbcfcpndjpmjggkiaadccoc
 
-**Hard but leet**: Clone this repo and use 'Load unpacked extension' on the chrome://extensions page.
+**Development**: Clone this repo and use 'Load unpacked extension' on the chrome://extensions page.
+
+## Installing -- Firefox
+**Production**: [Click here](https://github.com/hhcdt/NotCdT/releases/download/v9.9.9/not_cdt-9.9.9-fx.an.xpi), hit 'Allow' if prompted to allow Github to install extensions, and then hit 'Install'.
+
+**Development**: Clone this repo, go to about:debugging#addons, check 'Enable add-on debugging', press 'Load temporary add-on', navigate to where you cloned the repo and double-click manifest.json (or any other file) to load the add-on.
 
 ## Contributing
-Everything is in inject.js. I use jQuery. sue me
-
-Pull requests are welcomed.
+Pretty much all relevant code is in inject.js. Pull requests are welcomed.
 
 ## Disclaimer
-bad code probably
+really not the greatest code 
