@@ -29,5 +29,10 @@
         "src/inject/inject.js"
       ]
     }
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "id": "not@cdt.gd"
+    }
+  }
 }
