@@ -3,20 +3,41 @@ function userIsInGroup(groupId) {
 }
 
 var cdtGroups = [
-  'HHCirqueDuTwerque',
-  'CdTPoRusski',
-  '1693588754259442', // Swift
-  '1735685370005125', // Ohio
-  '1756785557888301', // Kanye
-  '1140775155942036', // Gamers
-  'CdTChicks',
-  '1196924153654960', // Cats
-  'cdtHousing',
-  '1633871026865938', // Dumpyard
-  'hhsneks',
-  '1781290548766693', // CdTunes
-  'realsingleshhct', // Singles
-  '482425228622242' // Les Canadiens
+  'HHCirqueDuTwerque',  // theonetruememegroup
+  'CdTPoRusski',        // чеснок
+  '1693588754259442',   // Swift
+  '1009494602470511',   // Banta
+  '1735685370005125',   // Ohio
+  '1140775155942036',   // Gamers
+  'CdTChicks',          // Chicks
+  'cdtHousing',         // Housing
+  '1633871026865938',   // Dumpyard
+  'hhsneks',            // Sneks
+  '1781290548766693',   // CdTunes
+  'realsingleshhct',    // Singles
+  '482425228622242',    // Les Canadiens
+  '2038973852994387',   // Cirque Deux Twerque
+  '1010276182400796',   // Chicago
+  '597901803695854',    // Headbang
+  '1727016160910779',   // Michigan
+  '1612723025673436',   // X86
+  '791289227682248',    // Sysadmins
+  '1719443741635503',   // SQUATS
+  '1579614305670299',   // CdT Splinter
+  '172429806482172',    // Blocked by &y
+  '1121408874600723',   // Commies
+  '1736701553240805',   // lambda
+  '948306851915303',    // 3 C0ol 5 CdT
+  '479066418951380',    // meetups
+  '1756785557888301',   // Kanye (Real Yeezy Shills)
+  '1672687653001258',   // Real Dogs
+  '1039017996185249',   // Real Ethnographers
+  '849532438509900',    // Real Philosophers
+  '1263057303723811',   // Real Monks
+  '1196924153654960',   // Real Cats
+  '1196451543722650',   // Real Grillz
+  '187300784985717',    // Real Mods
+  '372811302915528'     // Real Fake Couples
 ];
 
 function userFeelsAtHome() {
@@ -31,7 +52,8 @@ function userFeelsAtHome() {
 }
 
 
-// Banner at top of page
+// Banner at top of page 
+// TODO: (maybe?) instead of banner change FB top bar colour
 
 var $banner = null;
 
@@ -130,10 +152,10 @@ function process(element) {
   var elementIsOnCdT = $(element)
           .find('a')
           .toArray()
-          .map(function (link) {
-            return $(link).text();
-          })
-          .indexOf('Cirque du Twerque') > -1;
+          .some(function (link) {
+            var url = $(link).attr("href").replace(/\/\s*$/,'').split('/');
+            return url.some(x => cdtGroups.indexOf(x) > -1);
+          });
 
   if (!userFeelsAtHome() && !elementIsOnCdT) {
     var css = {backgroundColor: '#ffeeee'};
