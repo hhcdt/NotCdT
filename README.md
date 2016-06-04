@@ -7,7 +7,7 @@ Shows a very noticeable banner when you are on Facebook but outside of Cirque du
 **Development**: Clone this repo and use 'Load unpacked extension' on the chrome://extensions page.
 
 ## Installing -- Firefox
-**Production**: [Click here](https://github.com/hhcdt/NotCdT/releases/download/v9.9.9/not_cdt-9.9.9-fx.an.xpi), hit 'Allow' if prompted to allow Github to install extensions, and then hit 'Install'.
+**Production**: [Click here](https://github.com/hhcdt/NotCdT/releases/download/v13.3.7/not_cdt-13.3.7-fx.an.xpi), hit 'Allow' if prompted to allow Github to install extensions, and then hit 'Install'.
 
 **Development**: Clone this repo, go to about:debugging#addons, check 'Enable add-on debugging', press 'Load temporary add-on', navigate to where you cloned the repo and double-click manifest.json (or any other file) to load the add-on.
 
