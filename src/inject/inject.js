@@ -70,7 +70,7 @@ function updateBanner() {
             position: 'absolute',
             top: 52,
             left: 0,
-            width: '100%',
+            right: 0,
             padding: 20,
             fontSize: '2em',
             textAlign: 'center'
