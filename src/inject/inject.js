@@ -4,7 +4,7 @@ function userIsInGroup(groupId) {
 
 var cdtGroups = [
   'HHCirqueDuTwerque',  // theonetruememegroup
-  '583974418451912',	// Cirque du Tèque
+  '583974418451912',    // Cirque du Tèque
   'CdTPoRusski',        // чеснок
   '1693588754259442',   // Swift
   '1009494602470511',   // Banta
@@ -16,7 +16,7 @@ var cdtGroups = [
   'hhsneks',            // Sneks
   '1781290548766693',   // CdTunes
   '1337572992926694',   // CdT Music
-  '502759859921045',	// Torque
+  '502759859921045',    // Torque
   'realsingleshhct',    // Singles
   '482425228622242',    // Les Canadiens
   '2038973852994387',   // Cirque Deux Twerque
@@ -33,7 +33,7 @@ var cdtGroups = [
   '948306851915303',    // 3 C0ol 5 CdT
   '479066418951380',    // meetups
   '1756785557888301',   // Kanye (Real Yeezy Shills)
-  '627486717419608',	// Real Muse shills
+  '627486717419608',    // Real Muse shills
   '1640593699593115',   // Real Christians
   '1672687653001258',   // Real Dogs
   '1039017996185249',   // Real Ethnographers
