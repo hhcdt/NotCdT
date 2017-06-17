@@ -1,4 +1,4 @@
-# NotCdT
+# NotCdT [DEPRECATED/UNMAINTAINED]
 Shows a very noticeable banner when you are on Facebook but outside of Cirque du Twerque. Tested on Chrome and Firefox.
 
 ## Installing -- Chrome
